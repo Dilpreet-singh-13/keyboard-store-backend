@@ -1,0 +1,31 @@
+.vscode/
+
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# Environment variable files
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+*.out
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+
+# SQLite database
+*.sqlite3
+*.db
