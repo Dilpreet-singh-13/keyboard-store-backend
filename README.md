@@ -56,7 +56,8 @@ Backend APIs for a simple keyboard store. Made using Django Rest Famework (DRF)
 
 ## API Documentation
 
-**Base URL:** `http://127.0.0.1:8000/api`
+- **Base URL:** `http://127.0.0.1:8000/api`
+- Only the **Register User, Obtain Token and Refresh Token** endpoints don't need authentication. Rest of the endpoints need you to have the JWT access token in the request header
 
 ### 1. Authentication
 
